@@ -21,5 +21,15 @@ let booleanLoggedIn = Boolean(isLoggedIn)
 console.log(booleanLoggedIn)
 
 
+//**********operations************** */
+
+let value = 3;
+let negativeValue = -value
+console.log(negativeValue)
+
+console.log(+true)
+console.log(+"")
+
+
 
 
