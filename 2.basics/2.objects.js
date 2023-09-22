@@ -24,3 +24,19 @@ const users = [
 
     }
 ]
+
+
+//De-Structure of JSON API
+
+const course = {
+    courseName: "Javascript",
+    price: "2222",
+    courseRating: "5"  
+}
+
+//Here, we can get the object value directly inside the curly braces "courseRating"" and gave it an another name called "Rating"
+const {courseRating: Rating} = course
+
+// console.log(courseRating)
+console.log(Rating)
+
