@@ -28,29 +28,29 @@ jsUser.greetingTwo = function(){
 console.log(jsUser.greeting())
 console.log(jsUser.greetingTwo())
 
-//This is a Singlaton Object
-const tinderUser = new Object()
-console.log(tinderUser)
+// //This is a Singlaton Object
+// const tinderUser = new Object()
+// console.log(tinderUser)
 
-//This is not an Singlation Object
-const tinderUser1 = {}
-console.log(tinderUser1)
+// //This is not an Singlation Object
+// const tinderUser1 = {}
+// console.log(tinderUser1)
 
-tinderUser1.id = "123",
-tinderUser1.name = "Yash"
+// tinderUser1.id = "123",
+// tinderUser1.name = "Yash"
 
 // console.log(tinderUser1)
 
-const regularUser = {
-    email : "Yash@gmail.com"{
-        fullname: {
-            userfullname: {
-                firstname: "Yash",
-                lastname: "Singh"
-            }
-        }
-    }
-}
+// const regularUser = {
+//     email: "Yash@gmail.com",
+//     fullname:{
+//         userfullname: {
+//             firstname : "Chitransh",
+//             lastname : "Mathur"
+//         }
+//     }
+// }
+// // console.log(regularUser)
 
 
 
