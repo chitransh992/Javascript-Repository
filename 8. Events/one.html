@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "background-color: black; color: aliceblue;">
+    <h2>
+        Photos
+    </h2>
+    <div>
+        <ul id = "images">
+            <li><img width = "200px" id="home" src = "https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"</li>
+            <li><img width = "200px" id = "owl" src = "https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"</li>
+        </ul>
+    </div>
+</body>
+<script>
+    /*
+
+    Bubbling(Bottom to up approach)
+    document.getElementById("images").addEventListener('click',function(){
+        console.log("images is clicked");
+        // e.stopPropagation() === Unable to Bubbling Up(Bottom to top)
+    })
+    document.getElementById("owl").addEventListener('click',function(e){
+        // alert("owl is clicked");
+        console.log("owl is clicked");
+    },false)
+
+
+    Capturing(top to bottom approach)
+    document.getElementById("images").addEventListener('click',function(){
+        console.log("images is clicked");
+    },true)
+    document.getElementById("owl").addEventListener('click',function(e){
+        // alert("owl is clicked");
+        console.log("owl is clicked");
+    },true)
+
+
+    Remove Images from the document
+    document.getElementById("images").addEventListener('click',function(e){
+        console.log(e.target.tagName);
+        if(e.target.tagName === 'IMG'){
+           console.log(e.target.parentNode);
+           let removeImage = e.target.parentNode
+           removeImage.remove();
+        }
+    })
+    */
+   
+
+</script>
+</html>
