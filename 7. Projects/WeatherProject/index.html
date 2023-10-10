@@ -50,6 +50,7 @@
     const searchBtn = document.querySelector(".search button");
     const weatherIcon = document.querySelector(".weather-icon");
 
+    document.querySelector(".error").style.display = "none"
 
     async function checkWeather(city){
         const response = await fetch("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=ddc5f65a8a349d838745bc68d82a6d3a")
@@ -57,7 +58,6 @@
 
         if(searchBox == ""){
         document.querySelector(".city-name").style.display = "block"
-        document.querySelector(".error").style.display = "none"
         document.querySelector(".weather").style.display = "none"
         }
 
